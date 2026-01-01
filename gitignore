@@ -1,0 +1,65 @@
+# =============================
+# =============================
+node_modules/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# =============================
+# Environment variables
+# =============================
+.env
+.env.local
+.env.*.local
+
+
+# =============================
+# Build outputs
+# =============================
+dist/
+build/
+out/
+.next/
+
+
+# =============================
+# Solidity / Hardhat / Foundry
+# =============================
+cache/
+artifacts/
+out/
+broadcast/
+
+
+# =============================
+# Zero-Knowledge (Circom / Noir)
+# =============================
+*.r1cs
+*.wasm
+*.sym
+proofs/
+keys/
+
+
+# =============================
+# IPFS / Storage
+# =============================
+ipfs-data/
+
+
+# =============================
+# OS & Editor
+# =============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
+# =============================
+# Logs
+# =============================
+logs/
+*.log
